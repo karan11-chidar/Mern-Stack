@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Job Application</h2>
+    <label for="userName">Name:</label>
+    <input type="text" name="name" id="userName" placeholder="Enter Name" required>
+    <br>
+    <br>
+    <label for="userEmail">Email:</label>
+    <input type="email" name="userEmail" id="userEmail" placeholder="Enter Email" required>
+    <br>
+    <br>
+    <label for="userPhone">Phone:</label>
+    <input type="tel" name="userPhone" id="userPhone" placeholder="12345678910" required>
+    <br>
+    <br>
+    <label for="resume">Resume:</label>
+    <input type="file" name="resume" id="resume">
+    <br>
+    <br>
+    <label for="experience">Experience (in years):</label>
+    <input type="number" name="counter" id="counter" min="0" max="50">
+    <br>
+    <br>
+    <fieldset>
+        <legend>Skills</legend>
+         <input type="checkbox" name="interset" id="interset" required>
+     <label for="interset">HTML</label>
+    
+     <input type="checkbox" name="css" id="css">
+     <label for="css">CSS</label>
+    
+     <input type="checkbox" name="javaScript" id="javaScript">
+     <label for="javaScript">JavaScript</label>
+    </fieldset>
+    <br>
+    <label for="education">Highest Education:</label>
+    <select name="education" id="education">
+        <option value="10">10<sup>th</sup></option>
+        <option value="12">12<sub>th</sub></option>
+        <option value="Bachler of scinece">Bachler of scinece</option>
+        <option value="phd">PHD</option>
+    </select>
+    <br>
+    <br>
+    <fieldset >
+        <legend>Availability:</legend>
+        <label for="fulltime">Full-time:</label>
+        <input type="radio" name="radio" id="fulltime">
+        <br>
+        <label for="half">Part-time</label>
+        <input type="radio" name="radio" id="half">
+    </fieldset>
+    <br>
+        <label for="comments"> Additional Comments:</label>
+     <br>
+     <textarea name="comments" id="comments" cols="20" rows="4" placeholder="Enter here comments"></textarea>
+     <br>
+     <input type="submit" value="Sumit Application">
+</body>
+</html>

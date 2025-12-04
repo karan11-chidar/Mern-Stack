@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="border: 2px solid blue; width: auto; height: auto;">
+        <h2>Reservation Request Form</h2>
+        <fieldset style="border: 1px solid black; width: auto; height: auto;">
+            <legend style="color: blue;">General Information</legend>
+            <br>
+            <label for="arrivalDate">Arrival date :</label>
+            <input type="date" name="arrivalDate" id="arrivalDate" required>
+            <br>
+            <label for="night">Nights:</label>
+            <input type="number" name="night" id="night"  placeholder="Enter Number" required>
+            <br>
+            <br>
+            <label for="adults">Adults:</label>
+            <input type="number" name="adults" id="adults" min="0" max="50" value="0" required>
+            <br>
+            <br>
+            <label for="children">Children:</label>
+            <input type="number" name="children" id="children" min="0" max="50"  value="0" required>
+            <br>
+            <br>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset style="border: 1px solid black; width: auto; height: auto;">
+            <legend style="color: blue;">
+                Preferences
+            </legend>
+            <br>
+            <span>Room Type:</span>
+            <input type="radio" name="radioButton" id="standard">
+            <label for="standard">Standard</label>
+            <input type="radio" name="radioButton" id="business">
+            <label for="business">Business</label>
+            <input type="radio" name="radioButton" id="suite">
+            <label for="suite">Suite</label>
+            <br>
+            <br>
+            <span>Bed Preference:</span>
+            <input type="radio" name="radioButton2" id="king">
+            <label for="king">King</label>
+            <input type="radio" name="radioButton2" id="queen">
+            <label for="queen">Queen</label>
+            <input type="radio" name="radioButton2" id="twin">
+            <label for="twin">Twin</label>
+            <br>
+            <br>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset style="border: 1px solid black; width: auto; height: auto;">
+            <legend style="color: blue;">Contact Information</legend>
+            <br>
+            <label for="fullName">Full Name:</label>
+            <input type="text" name="fullName" id="fullName" placeholder="Enter Full Name" required>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter Email" required>
+            <br>
+            <br>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" placeholder="12345678910" required>
+            <br>
+            <br>
+        </fieldset>
+        <br>
+        <br>
+        <input type="submit" name="" id="" value="Submit Reservation " style="font-size: large;">
+        <input type="reset" name="" id="" value="Clear" style="font-size: large;">
+        <br>
+    </div>
+    
+</body>
+</html>

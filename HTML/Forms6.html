@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Complex Form</h2>
+    <br>
+    <fieldset style="border: 1px solid black; width: auto; height: auto;">
+       <legend>Personal Information</legend>
+       <br>
+       <label for="userName">Name:</label>
+    <input type="text" name="name" id="userName" placeholder="Enter Name" required>
+    <br>
+    <br>
+    <label for="userEmail">Email:</label>
+    <input type="email" name="userEmail" id="userEmail" placeholder="Enter Email" required>
+    <br>
+    <br>
+    <label for="userPhone">Phone:</label>
+    <input type="tel" name="userPhone" id="userPhone" placeholder="12345678910" required>
+    <br>
+    <br>
+    <label for="datebirth">Date of Birth:</label>
+    <input type="date" name="datebirth" id="datebirth" >
+    <br>
+    <br>
+    <p display="initial-scale">Gender:</p>
+    <label for="male">Male</label>
+    <input type="radio" name="Gender" id="male">
+    <label for="female">Female</label>
+    <input type="radio" name="Gender" id="female">
+    <label for="other">Other</label>
+    <input type="radio" name="Gender" id="other">
+    <br>
+    <br>
+    <label for="country">Country:</label>
+    <select name="country" id="country">
+        <option value="">--Please choose an option--</option>
+        <option value="usa">USA</option>
+        <option value="canada">Canada</option>
+        <option value="uk">UK</option>
+        <option value="australia">Australia</option>
+    </select>
+    <br>
+    <br>
+    </fieldset>
+    <br>
+    <fieldset style="border: 1px solid black; width: auto; height: auto;">
+        <legend>Address Street</legend>
+        <label for="street">Street:</label>
+        <input type="text" name="street" id="street" placeholder="Enter Street" required>
+        <br>
+        <br>
+        <label for="city">City:</label>
+        <input type="text" name="city" id="city" placeholder="Enter City" required>
+        <br>
+        <br>
+        <label for="zip">Zip Code:</label>
+        <input type="text" name="zip" id="zip" placeholder="Enter Zip Code" required>
+        <br>
+        <br>
+    </fieldset>
+    <br>
+    
+    <fieldset style="border: 1px solid black; width: auto; height: auto;">
+        <legend>Other Information:</legend>
+        <label for="comments">Comments:</label>
+        <br>
+        <textarea name="comments" id="comments" cols="30" rows="5" placeholder="Enter your comments here"></textarea>
+        <label for="service">I agree to the terms of service</label>
+        <input type="checkbox" name="service" id="service" required>
+        <br>
+        <br>
+    </fieldset>
+    <br>
+    <input type="submit" name="" id="" value="Submit">
+</body>
+</html>
